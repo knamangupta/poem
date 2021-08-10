@@ -1,0 +1,6 @@
+.highlight:hover {
+    transition : all 1s;
+    background-color: tomato;
+    /* transform: scale(-100px); */
+    cursor: pointer;
+}

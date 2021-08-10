@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './poem.css';
 
 const Poem = (props) => {
@@ -19,7 +19,7 @@ return (
     <h2>{props.author}</h2>
 
     {props.content.map((word) => (
-            <span style={{whiteSpace: "pre-line"}} onClick={change}>{word + " "}</span>
+            <span className="highlight" style={{whiteSpace: "pre-line"}} onClick={change}>{word + " "}</span>
     ))}
 
     </div>

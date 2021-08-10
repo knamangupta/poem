@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import ReactPlayer from "react-player";
@@ -26,9 +25,6 @@ base('Table 1').find('recW3qcuwxQ3myamk', function(err, record) {
 });
 
 var words = content.replace( /\n/g, " \n" ).split(" ")
-console.log(words);
-
-
 
   return (
     <div className="App">
